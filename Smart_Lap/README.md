@@ -20,7 +20,7 @@ A microcontroller-based access control system for laboratories, designed to secu
 ## 🛠️ Hardware Components
 
 - **Microcontroller:** ATmega32
-- **External EEPROM:** 2 KB (model e.g., 24C16)
+- **External EEPROM:** 2 KB
 - **IR Sensors:** 2 units for direction detection
 - **16x2 LCD Display**
 - **Stepper Motor:** For door actuation
@@ -43,3 +43,41 @@ Producing IDs in the range **1326–9962**.
 ### 🎫 ID Generation
 - Internally, IDs are sequential addresses in EEPROM (1–254).
 - To obfuscate them, the system generates a public ID:
+- The sum of the first 3 `FIN` elements yields a single 8-bit encoded password stored in EEPROM.
+
+### 🚪 Entry & Exit Detection
+- Two IR sensors detect movement sequence:
+- Sensor 1 triggers before Sensor 2 → **entry**
+- Sensor 2 triggers before Sensor 1 → **exit**
+
+---
+
+## 🧩 Software Tools
+
+- **Development Environment:** Microchip Studio
+- **Language:** C (AVR-GCC toolchain)
+
+---
+
+## ⚙️ Getting Started
+
+### 🛠️ Build Instructions
+1. Open the project in **Microchip Studio**.
+2. Compile the code (`Build → Build Solution`).
+3. Flash the generated HEX file to the ATmega32 using your preferred programmer (e.g., USBasp).
+
+### 🧪 Usage
+- Power on the system.
+- Admin can add or remove members via the keypad.
+- Users enter their obfuscated ID and password to unlock the door.
+- Exit is triggered via the internal pushbutton.
+- The system logs entry and exit events.
+
+---
+
+## 📷 Demo
+
+The presentation describing the project is included in this repository directory.
+**Video:** [https://drive.google.com/file/d/1C6aj4ZqyIqUCKxOG2lYy19SOpPkSU26Y/view?usp=drive_link]
+
+---
