@@ -31,26 +31,6 @@ A microcontroller-based access control system for laboratories, designed to secu
 - **Pushbuttons:** Exit and reset functions
 
 ---
-Producing IDs in the range **1326–9962**.
-
-### 🔑 Password Encoding
-- Users enter an 8-character password (0–9, A–D).
-- The ASCII values are split into two groups of 4 characters.
-- For each index `t`:
-
-## 🧠 How It Works
-
-### 🎫 ID Generation
-- Internally, IDs are sequential addresses in EEPROM (1–254).
-- To obfuscate them, the system generates a public ID:
-- The sum of the first 3 `FIN` elements yields a single 8-bit encoded password stored in EEPROM.
-
-### 🚪 Entry & Exit Detection
-- Two IR sensors detect movement sequence:
-- Sensor 1 triggers before Sensor 2 → **entry**
-- Sensor 2 triggers before Sensor 1 → **exit**
-
----
 
 ## 🧩 Software Tools
 
@@ -75,9 +55,9 @@ Producing IDs in the range **1326–9962**.
 
 ---
 
-## 📷 Demo
+## Documentations
 
 The presentation describing the project is included in this repository directory.
-**Video:** [https://drive.google.com/file/d/1C6aj4ZqyIqUCKxOG2lYy19SOpPkSU26Y/view?usp=drive_link]
+**Video:** [Link](https://drive.google.com/file/d/1C6aj4ZqyIqUCKxOG2lYy19SOpPkSU26Y/view?usp=drive_link)
 
 ---
