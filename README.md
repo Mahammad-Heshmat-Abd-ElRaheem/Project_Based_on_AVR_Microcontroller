@@ -6,17 +6,17 @@ This repository contains several embedded systems projects I have developed usin
 
 ## 📋 Projects Overview
 
-### 🛠️ [Smart Lab Access Control](./AnotherProject)
-- The system designed to secure entry with individual user IDs and passwords by *(8-bits)* only.
-- The system manages authorized student access, tracks entries and exits.
+### 🛠️ [Smart Lab Access Control](./Smart_Lap)
+- The system is designed to secure entry with individual user IDs and passwords by **8-bit** only.
+- The system manages authorized student access and tracks entries and exits.
 - The system provides admin capabilities to monitor and configure users.
 
 
-### 🕒 [Full-Optional Digital Clock](./DigitalClock)
+### 🕒 [Full-Optional Digital Clock](./Full_Optional_Digital_Clock)
 - Multi-mode digital clock with alarm, timer, and stopwatch.
 - External crystal for precise timing.
 
-### 🤖 [Obstacle-Avoiding Mobile Robot](./ObstacleAvoidingRobot)
+### 🤖 [Obstacle-Avoiding Mobile Robot](./Obstacle_Avoiding_Mobile_Robot)
 - Autonomous navigation with Bluetooth-based remote stop.
 
 ---
