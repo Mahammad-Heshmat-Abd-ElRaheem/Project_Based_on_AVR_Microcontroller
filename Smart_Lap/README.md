@@ -1,15 +1,15 @@
 # 🚀 Smart Lab Access Control
 
 A microcontroller-based access control system for laboratories, designed to secure entry with individual user IDs and passwords. The system manages authorized student access, tracks entries, and exits, and provides admin capabilities to monitor and configure users.   
-**Video:** [Link](https://drive.google.com/file/d/1C6aj4ZqyIqUCKxOG2lYy19SOpPkSU26Y/view?usp=drive_link)
+🎥 **Demo Video:** [Link](https://drive.google.com/file/d/1C6aj4ZqyIqUCKxOG2lYy19SOpPkSU26Y/view?usp=drive_link)
 
 ---
 
 ## 📸 Screenshots
 
-*![SMART_LAB](https://github.com/user-attachments/assets/7cfdb2c9-f75c-4323-b915-f7bfb3ea0e25)
-*
-[📄 View the Project Documentation](./docs/DigitalClock_Documentation.pdf)
+![SMART_LAB](https://github.com/user-attachments/assets/7cfdb2c9-f75c-4323-b915-f7bfb3ea0e25)    
+
+[📄 View the Project Documentation](../LCD-KEYPAD/Documentation of the Project.pdf)
 
 ---
 
