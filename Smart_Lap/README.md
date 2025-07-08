@@ -9,6 +9,7 @@ A microcontroller-based access control system for laboratories, designed to secu
 
 *![SMART_LAB](https://github.com/user-attachments/assets/7cfdb2c9-f75c-4323-b915-f7bfb3ea0e25)
 *
+[📄 View the Project Documentation](./docs/DigitalClock_Documentation.pdf)
 
 ---
 
