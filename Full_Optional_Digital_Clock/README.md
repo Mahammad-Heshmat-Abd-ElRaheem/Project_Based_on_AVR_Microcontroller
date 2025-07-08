@@ -1,9 +1,7 @@
 # 🕒 Full-Optional Digital Clock with ATmega32
 
 This repository contains the source code and documentation for a **multi-mode digital clock** built with an **ATmega32 microcontroller**. The project was designed to demonstrate precision timekeeping, user interaction, and embedded system programming.   
-🎥 **Demo Video:** [Watch on LinkedIn](https://www.linkedin.com/posts/mahammad-heshmat-abdel-raheem_embeddedsystems-avr-microcontrollers-activity-7114583005691588608-rW7E?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5R4y8B373FB7ekZS5GqdmdKkMOsfxAWNM)
-
-## 📸 Screenshots
+🎥 **Demo Video:** [Watch on LinkedIn](https://www.linkedin.com/posts/mahammad-heshmat-abdel-raheem_embeddedsystems-avr-microcontrollers-activity-7114583005691588608-rW7E?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5R4y8B373FB7ekZS5GqdmdKkMOsfxAWNM)    
 
 ![Mander Meeting _ by Slidesgo](https://github.com/user-attachments/assets/85f9163e-f89e-4376-a19d-ea82a862bac7)
 
