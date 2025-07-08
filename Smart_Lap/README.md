@@ -1,12 +1,11 @@
 # 🚀 Smart Lab Access Control
 
-A microcontroller-based access control system for laboratories, designed to secure entry with individual user IDs and passwords. The system manages authorized student access, tracks entries and exits, and provides admin capabilities to monitor and configure users.
+A microcontroller-based access control system for laboratories, designed to secure entry with individual user IDs and passwords. The system manages authorized student access, tracks entries, and exits, and provides admin capabilities to monitor and configure users.
 
 ---
 
 ## ✨ Features
 
-✅ Individual ID and password authentication  
 ✅ Compact password encoding algorithm to save EEPROM memory  
 ✅ Admin panel with runtime management:  
 - Add, delete, or update member records  
@@ -32,6 +31,12 @@ A microcontroller-based access control system for laboratories, designed to secu
 - **Pushbuttons:** Exit and reset functions
 
 ---
+Producing IDs in the range **1326–9962**.
+
+### 🔑 Password Encoding
+- Users enter an 8-character password (0–9, A–D).
+- The ASCII values are split into two groups of 4 characters.
+- For each index `t`:
 
 ## 🧠 How It Works
 
