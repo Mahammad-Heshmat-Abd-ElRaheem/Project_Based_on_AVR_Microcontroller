@@ -1,12 +1,8 @@
 # 🤖 Obstacle-Avoiding Mobile Robot with Dual ATmega32
 
-This repository contains the code and documentation for an **autonomous obstacle-avoiding mobile robot**, enhanced with Bluetooth-based remote interruption using **two ATmega32 microcontrollers**.
+This repository contains the code and documentation for an **autonomous obstacle-avoiding mobile robot**, enhanced with Bluetooth-based remote interruption using **two ATmega32 microcontrollers**.     
 
----
-
-## 🎥 Demo Video
-
-[![Watch the demo](https://img.shields.io/badge/Demo-Video-blue)](https://lnkd.in/dFx3fxBT)
+🎥 **Demo Video:** [Watch on LinkedIn](https://www.linkedin.com/posts/mahammad-heshmat-abdel-raheem_embeddedsystems-robotics-avr-activity-7097922174895742976-lW6B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5R4y8B373FB7ekZS5GqdmdKkMOsfxAWNM)
 
 ---
 
@@ -40,7 +36,7 @@ This repository contains the code and documentation for an **autonomous obstacle
 ## 🧭 System Overview
 
 ### Primary Microcontroller
-- Reads ultrasonic distance
+- Reads the distance the ultrasonic 
 - Determines motion commands
 - Drives the motors
 
@@ -50,44 +46,3 @@ This repository contains the code and documentation for an **autonomous obstacle
 
 ---
 
-## 🗂️ Repository Structure
-
-- `/src` – Source code for both microcontrollers
-- `/docs` – Schematics and system diagrams
-- `README.md` – This file
-
----
-
-## 🚀 Getting Started
-
-1. Flash the firmware to each ATmega32.
-2. Connect the hardware as shown in the schematic diagrams.
-3. Pair the Bluetooth module with your smartphone.
-4. Send commands (e.g., stop) via a Bluetooth terminal app.
-5. Power up the robot to start autonomous navigation.
-
----
-
-## 💡 Project Highlights
-
-- Demonstrates multi-microcontroller cooperation
-- Combines real-time sensing with remote control
-- Uses interrupts for safety and immediate response
-
----
-
-## 📸 Screenshots
-
-*(Add photos of the assembled robot and LCD display)*
-
----
-
-## 📄 License
-
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 🙌 Acknowledgments
-
-Thanks to the open-source AVR community and robotics enthusiasts who inspired this project.
