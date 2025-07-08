@@ -1,7 +1,7 @@
 # 🕒 Full-Optional Digital Clock with ATmega32
 
-- This repository contains the source code and documentation for a **multi-mode digital clock** built with an **ATmega32 microcontroller**. The project was designed to demonstrate precision timekeeping, user interaction, and embedded system programming.
-- 🎥 **Demo Video:** [Watch on LinkedIn]([https://www.linkedin.com/posts/your-post-id](https://www.linkedin.com/posts/mahammad-heshmat-abdel-raheem_embeddedsystems-avr-microcontrollers-activity-7114583005691588608-rW7E?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5R4y8B373FB7ekZS5GqdmdKkMOsfxAWNM))
+This repository contains the source code and documentation for a **multi-mode digital clock** built with an **ATmega32 microcontroller**. The project was designed to demonstrate precision timekeeping, user interaction, and embedded system programming.
+🎥 **Demo Video:** [Watch on LinkedIn](https://www.linkedin.com/posts/mahammad-heshmat-abdel-raheem_embeddedsystems-avr-microcontrollers-activity-7114583005691588608-rW7E?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5R4y8B373FB7ekZS5GqdmdKkMOsfxAWNM)
 
 ## 📋 Features
 
@@ -55,25 +55,6 @@
 
 ---
 
-## 🗂️ Repository Contents
-
-- `/src` – Source code files
-- `/docs` – Schematics and documentation
-- `README.md` – Project description
-
----
-
-## 🚀 Getting Started
-
-To build and flash the firmware:
-
-1. Open the project in Microchip Studio.
-2. Compile the code.
-3. Upload to the ATmega32 using an AVR programmer.
-4. Connect peripherals as per the schematic.
-
----
-
 ## 🎯 Project Goals
 
 - Demonstrate accurate timekeeping on low-frequency crystal
@@ -84,7 +65,8 @@ To build and flash the firmware:
 
 ## 📸 Screenshots
 
-*(Include photos of the assembled project here)*
+*(![Mander Meeting _ by Slidesgo](https://github.com/user-attachments/assets/85f9163e-f89e-4376-a19d-ea82a862bac7)
+)*
 
 ---
 
