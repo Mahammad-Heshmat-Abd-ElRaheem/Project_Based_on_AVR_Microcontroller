@@ -5,8 +5,8 @@ This repository contains the source code and documentation for a **multi-mode di
 
 ## 📸 Screenshots
 
-*![Mander Meeting _ by Slidesgo](https://github.com/user-attachments/assets/85f9163e-f89e-4376-a19d-ea82a862bac7)
-*
+![Mander Meeting _ by Slidesgo](https://github.com/user-attachments/assets/85f9163e-f89e-4376-a19d-ea82a862bac7)
+
 
 ---
 
